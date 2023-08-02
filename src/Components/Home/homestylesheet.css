@@ -1,0 +1,484 @@
+@media screen and (min-width: 768px) {
+    .home {
+        width: 100vw;
+        min-height: 100vh;
+        background-color: rgba(213, 255, 255);
+    }
+
+    .home header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .home header h1 {
+        padding: 2vh 2vw;
+        cursor: pointer;
+        font-size: 3.5vw;
+    }
+
+    .home nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 30%;
+    }
+
+    .home nav p {
+        width: 40%;
+        height: 50%;
+        padding: 0 1vw;
+        border-radius: 25px;
+        font-size: 1.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+        background-color: #fff;
+        border: 2px solid black;
+        box-shadow: 3px 3px 0px 0px #000;
+        -webkit-box-shadow: 3px 3px 0px 0px #000;
+        -moz-box-shadow: 3px 3px 0px 0px #000;
+    }
+
+    .home nav p:hover {
+        box-shadow: 0 0 0 0;
+        -webkit-box-shadow: 0 0 0 0;
+        -moz-box-shadow: 0 0 0 0;
+        transform: translate(3px, 3px);
+    }
+
+    .home-header {
+        width: 100%;
+        height: 90vh;
+        padding: 5vh 5vw;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .home-header section {
+        width: 50%;
+        padding: 2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .home-header h1 {
+        font-weight: 800;
+        font-size: 7vw;
+        margin-bottom: 5vh;
+    }
+
+    .home-header p {
+        /* color: #64676B; */
+        font-weight: 400;
+        font-size: 2vw;
+    }
+
+    .home-header button {
+        margin-top: 5vh;
+        border: 0;
+        width: 15vw;
+        padding: 1vh 1.5vw;
+        font-size: 1.5vw;
+        color: white;
+        /* background-color: rgb(10, 147, 150); */
+        /* background-color: #2F4858; */
+        background-color: #455964;
+        /* background-color: rgb(33, 158, 188); */
+        /* background-color: #344966; */
+        border: 2px solid black;
+        box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 1);
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .home-header button:hover {
+        box-shadow: 0 0 0 0;
+    }
+
+    .home-header img {
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid black; */
+        /* box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1); */
+        border-radius: 5px;
+    }
+
+    .modal-login {
+        padding: 0;
+        border: 3px solid black;
+        width: 30vw;
+    }
+
+    .modal-login p,
+    .modal-login input,
+    .modal-login button {
+        font-size: 1.25vw;
+
+    }
+
+    .modal-header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-bottom: 2px solid black;
+    }
+
+    .modal-header p:first-child {
+        width: 95%;
+        text-align: left;
+        margin-left: 1vw;
+    }
+
+    .modal-header p:last-child {
+        padding: 0.5vh 1vh;
+        border-left: 2px solid black;
+        cursor: pointer;
+    }
+
+    .modal-body {
+        padding: 2vh 0vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-body section {
+        margin-bottom: 3vh;
+        /* border: red 1px solid; */
+    }
+
+    .modal-form {
+        width: 80%;
+    }
+
+    .modal-form input {
+        width: 100%;
+        margin-bottom: 1vh;
+        margin-top: 2vh;
+        height: 5vh;
+        padding: 0 1vw;
+        border: 2px solid #000;
+        border-radius: 5px;
+    }
+
+    .modal-form-error {
+        width: 100%;
+        color: red;
+    }
+
+    .modal-form button {
+        width: 100%;
+        height: 5vh;
+        margin-top: 2vh;
+        color: #fff;
+        border: 2px solid #000;
+        background: #455964;
+        border-radius: 5px;
+        box-shadow: 3px 3px 0 0 #000;
+        cursor: pointer;
+    }
+
+    .modal-or {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .modal-or p {
+        width: 20%;
+        text-align: center;
+    }
+
+    .modal-or p:nth-child(2n-1) {
+        width: 40%;
+        border-bottom: 2px solid black;
+    }
+
+    .modal-google {
+        width: 80%;
+        height: 5vh;
+        border: 2px solid black;
+        box-shadow: 3px 3px 0 0 #000;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .modal-google img {
+        width: 15%;
+        height: 100%;
+        border-right: 2px solid #000;
+    }
+
+    .modal-google p {
+        width: 85%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #39a5de;
+        color: #fff;
+    }
+
+    .modal-form button:hover,
+    .modal-google:hover {
+        box-shadow: 0 0 0 0;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:767px) {
+    .home {
+        width: 100vw;
+        min-height: 100vh;
+        background-color: rgba(213, 255, 255);
+    }
+
+    .home header {
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .home header h1 {
+        padding: 2vh 2vw;
+        cursor: pointer;
+        font-size: 15vw;
+    }
+
+    .home nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    .home nav p {
+        width: 40%;
+        /* height: 100%; */
+        height: 5vh;
+        padding: 0 1vw;
+        border-radius: 25px;
+        font-size: 3vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+        background-color: #fff;
+        border: 1px solid black;
+        box-shadow: 1px 1px 0px 0px #000;
+        -webkit-box-shadow: 1px 1px 0px 0px #000;
+        -moz-box-shadow: 1px 1px 0px 0px #000;
+    }
+
+    .home nav p:hover {
+        box-shadow: 0 0 0 0;
+        -webkit-box-shadow: 0 0 0 0;
+        -moz-box-shadow: 0 0 0 0;
+        transform: translate(1px, 1px);
+    }
+
+    .home-header {
+        width: 100%;
+        min-height: 70vh;
+        margin-top: 2vh;
+        padding: 0 5vw;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .home-header section {
+        width: 100%;
+        padding: 2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-header h1 {
+        width: 75%;
+        font-weight: 800;
+        font-size: 12vw;
+        margin-bottom: 5vh;
+    }
+
+    .home-header p {
+        /* color: #64676B; */
+        width: 75%;
+        font-weight: 400;
+        font-size: 5vw;
+    }
+
+    .home-header button {
+        margin-top: 5vh;
+        border: 0;
+        width: 75%;
+        padding: 1vh 2vw;
+        font-size: 3vw;
+        color: white;
+        /* background-color: rgb(10, 147, 150); */
+        /* background-color: #2F4858; */
+        background-color: #455964;
+        /* background-color: rgb(33, 158, 188); */
+        /* background-color: #344966; */
+        border: 1px solid black;
+        box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 1);
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .home-header button:hover {
+        box-shadow: 0 0 0 0;
+    }
+
+    .home-header img {
+        width: 75%;
+        /* border: 2px solid black; */
+        /* box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1); */
+        border-radius: 5px;
+    }
+
+    .modal-login {
+        padding: 0;
+        border: 1px solid black;
+        width: 50vw;
+    }
+
+    .modal-login p,
+    .modal-login input,
+    .modal-login button {
+        font-size: 3vw;
+
+    }
+
+    .modal-header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-bottom: 1px solid black;
+    }
+
+    .modal-header p:first-child {
+        width: 95%;
+        text-align: left;
+        margin-left: 1vw;
+    }
+
+    .modal-header p:last-child {
+        padding: 0.5vh 1vh;
+        border-left: 1px solid black;
+        cursor: pointer;
+    }
+
+    .modal-body {
+        padding: 2vh 0vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-body section {
+        margin-bottom: 3vh;
+        /* border: red 1px solid; */
+    }
+
+    .modal-form {
+        width: 80%;
+    }
+
+    .modal-form input {
+        width: 100%;
+        margin-bottom: 1vh;
+        margin-top: 2vh;
+        height: 4vh;
+        padding: 0 1vw;
+        border: 1px solid #000;
+        border-radius: 5px;
+    }
+
+    .modal-form-error {
+        margin-top: 1vh;
+        text-align: center;
+        width: 100%;
+        color: red;
+    }
+
+    .modal-form button {
+        width: 100%;
+        height: 4vh;
+        margin-top: 2vh;
+        color: #fff;
+        border: 1px solid #000;
+        background: #455964;
+        border-radius: 5px;
+        box-shadow: 1px 1px 0 0 #000;
+        cursor: pointer;
+    }
+
+    .modal-or {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .modal-or p {
+        width: 20%;
+        text-align: center;
+    }
+
+    .modal-or p:nth-child(2n-1) {
+        width: 40%;
+        border-bottom: 1px solid black;
+    }
+
+    .modal-google {
+        width: 80%;
+        height: 4vh;
+        border: 1px solid black;
+        box-shadow: 1px 1px 0 0 #000;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .modal-google img {
+        width: 15%;
+        height: 100%;
+        border-right: 1px solid #000;
+    }
+
+    .modal-google p {
+        width: 85%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #39a5de;
+        color: #fff;
+    }
+
+    .modal-form button:hover,
+    .modal-google:hover {
+        box-shadow: 0 0 0 0;
+    }
+}
