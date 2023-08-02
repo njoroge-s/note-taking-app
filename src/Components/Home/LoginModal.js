@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom'
 import googleIcon from './../../assets/google_icon.svg'
 import ReactDom from 'react-dom'
