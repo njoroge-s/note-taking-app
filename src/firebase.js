@@ -4,14 +4,14 @@ import { getFirestore } from "firebase/firestore";
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAkVB4gKl5SEWN4O31ncEgS5u5Tm5W9PKQ",
-    authDomain: "notely-4c51d.firebaseapp.com",
-    projectId: "notely-4c51d",
-    storageBucket: "notely-4c51d.appspot.com",
-    messagingSenderId: "107600633523",
-    appId: "1:107600633523:web:ef0329700ec3a0822d1ac6",
-    measurementId: "G-M6LZ9NH3FP"
-};
+    apiKey: "AIzaSyCNPudnrSBa7nt2ea_MH_I59tFhrmiMssc",
+    authDomain: "notely-d3a91.firebaseapp.com",
+    projectId: "notely-d3a91",
+    storageBucket: "notely-d3a91.appspot.com",
+    messagingSenderId: "236730801545",
+    appId: "1:236730801545:web:96c7802990e449f1c89558",
+    measurementId: "G-8GEY6MQYVT"
+  };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
